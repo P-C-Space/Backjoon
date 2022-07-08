@@ -1,6 +1,6 @@
 num = int(input())
 a = list(map(int,input().split()))
-max = 0
+max = -1000000
 min = 1000000
 for i in range(num):
     if(max<a[i]):
