@@ -25,3 +25,5 @@ while n > 0: # n이 0보다 크다면 루프
         asc = True
     size += 1
 print(x,'/',y,sep='')
+
+##시간 초과
