@@ -11,7 +11,6 @@ for i in range(n):
             a=1
             b+=1
         cnt+=1
-        print(a,b,cnt)
     if(b<10):
         print(a,'0'+str(b),sep="")
     else:
