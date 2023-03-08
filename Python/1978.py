@@ -8,6 +8,6 @@ if(1 in a):
 for i in range(n):
     for j in range(2,a[i]):
         if(a[i]%j == 0):
-            cnt -= 1
             break
+        sum += i
 print(cnt)
