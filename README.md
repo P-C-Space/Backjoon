@@ -8,6 +8,6 @@
 ### 자바 문제풀이 [이동하기](https://github.com/P-C-Space/Baekjoon/tree/master/JAVA)
  * 자바파일 전체 존재
 ### 자바개선 문제풀이 [이동하기](https://github.com/P-C-Space/Baekjoon/tree/master/JAVA%EA%B0%9C%EC%84%A0)
- * 자바 확장자를 가진 코드만 존재
+ * 자바 확장자를 가진 코드만 존재 <
 <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/> <br>
 ### c언어 문제풀이 [이동하기](https://github.com/P-C-Space/Baekjoon/tree/master/JAVA)
