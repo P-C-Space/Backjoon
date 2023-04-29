@@ -1,0 +1,161 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "p24264",
+            "request": "launch",
+            "mainClass": "p24264",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p24263",
+            "request": "launch",
+            "mainClass": "p24263",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p1427",
+            "request": "launch",
+            "mainClass": "p1427",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p2751",
+            "request": "launch",
+            "mainClass": "p2751",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p13460",
+            "request": "launch",
+            "mainClass": "p13460",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "number10871.Main",
+            "projectName": "number10871"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "number10950.Main",
+            "projectName": "number10950"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "number11021.Main",
+            "projectName": "number11021"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "number11022.Main",
+            "projectName": "number11022"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "number14681.Main",
+            "projectName": "number14681"
+        },
+        {
+            "type": "java",
+            "name": "Main(5)",
+            "request": "launch",
+            "mainClass": "number15552.Main",
+            "projectName": "number15552"
+        },
+        {
+            "type": "java",
+            "name": "Main(6)",
+            "request": "launch",
+            "mainClass": "number2438.Main",
+            "projectName": "number2438"
+        },
+        {
+            "type": "java",
+            "name": "Main(7)",
+            "request": "launch",
+            "mainClass": "number2439.Main",
+            "projectName": "number2439"
+        },
+        {
+            "type": "java",
+            "name": "Main(8)",
+            "request": "launch",
+            "mainClass": "number2480.Main",
+            "projectName": "number2480"
+        },
+        {
+            "type": "java",
+            "name": "Main(9)",
+            "request": "launch",
+            "mainClass": "number2525.Main",
+            "projectName": "number2525"
+        },
+        {
+            "type": "java",
+            "name": "Main(10)",
+            "request": "launch",
+            "mainClass": "number2739.Main",
+            "projectName": "number2739"
+        },
+        {
+            "type": "java",
+            "name": "Main(11)",
+            "request": "launch",
+            "mainClass": "number2741.Main",
+            "projectName": "number2741"
+        },
+        {
+            "type": "java",
+            "name": "Main(12)",
+            "request": "launch",
+            "mainClass": "number2742.Main",
+            "projectName": "number2742"
+        },
+        {
+            "type": "java",
+            "name": "Main(13)",
+            "request": "launch",
+            "mainClass": "number2884.Main",
+            "projectName": "number2884"
+        },
+        {
+            "type": "java",
+            "name": "Main(14)",
+            "request": "launch",
+            "mainClass": "number8393.Main",
+            "projectName": "number8393"
+        },
+        {
+            "type": "java",
+            "name": "Main(15)",
+            "request": "launch",
+            "mainClass": "sprout.Main",
+            "projectName": "sprout"
+        }
+    ]
+}
