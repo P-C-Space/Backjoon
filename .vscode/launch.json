@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p3003",
+            "request": "launch",
+            "mainClass": "p3003",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "cal",
+            "request": "launch",
+            "mainClass": "cal",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p1436",
+            "request": "launch",
+            "mainClass": "p1436",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p2903",
+            "request": "launch",
+            "mainClass": "p2903",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p2798",
+            "request": "launch",
+            "mainClass": "p2798",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p24265",
+            "request": "launch",
+            "mainClass": "p24265",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p2720",
+            "request": "launch",
+            "mainClass": "p2720",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p10798",
+            "request": "launch",
+            "mainClass": "p10798",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p2566",
+            "request": "launch",
+            "mainClass": "p2566",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p1003",
+            "request": "launch",
+            "mainClass": "p1003",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p1002",
+            "request": "launch",
+            "mainClass": "p1002",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p1260",
+            "request": "launch",
+            "mainClass": "p1260",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "p25206_1",
             "request": "launch",
             "mainClass": "p25206_1",

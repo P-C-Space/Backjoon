@@ -5,6 +5,7 @@ class Move{
     // 2 down
     // 3 left
     // 4 right
+    int count = 0;
     private int direction;
     Move(int direction){
 
@@ -28,7 +29,10 @@ public class p13460 {
         try{
         int N = s.nextInt(); // 세로
         int M = s.nextInt(); // 가로
-            
+        String rx,ry; // 레드
+        String bx,by; // 블루
+        Srring ox,oy; // 구멍
+
         s.nextLine(); // 남아있던 값 삭제
 
         char board[][] = new char[N][M]; // 사이즈 설정
@@ -37,16 +41,30 @@ public class p13460 {
             String shape = s.nextLine();
             for(int j =0;j<shape.length();j++){
                 board[i][j] = shape.charAt(j); // 모양 값 초기화
+                
+                // 각 위치 기록
+                if(shape.charAt(j) == 'R'){
+                    rx = j;
+                    ry = i;
+                }
+                else if(shape.charAt(j) == 'B'){
+                    bx = j;
+                    by = i;
+                }
+                else if(shape.charAt(j) == 'O'){ 
+                    ox = j;
+                    oy = i;
+                }
             } 
         }
         
         // 초기화 확인
-        // for(int i = 0;i<N;i++){
-        //     for(int j =0;j<M;j++){
-        //         System.out.print(board[i][j]);
-        //     }
-        //     System.out.println();
-        // }
+        for(int i = 0;i<N;i++){
+            for(int j =0;j<M;j++){
+                System.out.print(board[i][j]);
+            }
+            System.out.println();
+        }
 
         }catch(Exception e){
             e.printStackTrace();
