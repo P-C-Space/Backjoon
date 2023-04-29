@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "p3003",
             "request": "launch",
             "mainClass": "p3003",
@@ -90,23 +91,57 @@
         },
         {
             "type": "java",
+=======
+<<<<<<< HEAD
+            "name": "p24264",
+            "request": "launch",
+            "mainClass": "p24264",
+=======
+>>>>>>> 198001104574e44dca74f16bd2609340d3d4e5cc
             "name": "p25206_1",
             "request": "launch",
             "mainClass": "p25206_1",
+>>>>>>> e23a062f21e8336a62b5f6b0e9ce73511d9005c5
             "projectName": ""
         },
         {
             "type": "java",
+<<<<<<< HEAD
+            "name": "p24263",
+            "request": "launch",
+            "mainClass": "p24263",
+=======
             "name": "p25304",
             "request": "launch",
             "mainClass": "p25304",
+>>>>>>> e23a062f21e8336a62b5f6b0e9ce73511d9005c5
             "projectName": ""
         },
         {
             "type": "java",
+<<<<<<< HEAD
+            "name": "p1427",
+            "request": "launch",
+            "mainClass": "p1427",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p2751",
+            "request": "launch",
+            "mainClass": "p2751",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "p13460",
+            "request": "launch",
+            "mainClass": "p13460",
+=======
             "name": "p25206",
             "request": "launch",
             "mainClass": "p25206",
+>>>>>>> e23a062f21e8336a62b5f6b0e9ce73511d9005c5
             "projectName": ""
         },
         {
