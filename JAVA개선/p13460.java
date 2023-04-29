@@ -5,7 +5,10 @@ class Move{
     // 2 down
     // 3 left
     // 4 right
+<<<<<<< HEAD
     int count = 0;
+=======
+>>>>>>> e23a062f21e8336a62b5f6b0e9ce73511d9005c5
     private int direction;
     Move(int direction){
 
@@ -29,10 +32,14 @@ public class p13460 {
         try{
         int N = s.nextInt(); // 세로
         int M = s.nextInt(); // 가로
+<<<<<<< HEAD
         String r; // 레드
         String b; // 블루
         Srring o; // 구멍
 
+=======
+            
+>>>>>>> e23a062f21e8336a62b5f6b0e9ce73511d9005c5
         s.nextLine(); // 남아있던 값 삭제
 
         char board[][] = new char[N][M]; // 사이즈 설정
@@ -41,6 +48,7 @@ public class p13460 {
             String shape = s.nextLine();
             for(int j =0;j<shape.length();j++){
                 board[i][j] = shape.charAt(j); // 모양 값 초기화
+<<<<<<< HEAD
                 
                 // 각 위치 기록
                 if(shape.charAt(j) == 'r'){
@@ -52,16 +60,27 @@ public class p13460 {
                 else if(shape.charAt(j) == 'o'){ 
                     
                 }
+=======
+>>>>>>> e23a062f21e8336a62b5f6b0e9ce73511d9005c5
             } 
         }
         
         // 초기화 확인
+<<<<<<< HEAD
         for(int i = 0;i<N;i++){
             for(int j =0;j<M;j++){
                 System.out.print(board[i][j]);
             }
             System.out.println();
         }
+=======
+        // for(int i = 0;i<N;i++){
+        //     for(int j =0;j<M;j++){
+        //         System.out.print(board[i][j]);
+        //     }
+        //     System.out.println();
+        // }
+>>>>>>> e23a062f21e8336a62b5f6b0e9ce73511d9005c5
 
         }catch(Exception e){
             e.printStackTrace();
