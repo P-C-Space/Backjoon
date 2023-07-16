@@ -3,22 +3,25 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.StringTokenizer;
 
-public class p2587 {
+public class p25305 {
     static ArrayList<Integer> arr = new ArrayList<Integer>();
     static StringBuilder sb = new StringBuilder();
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        
-        int sum = 0;
-        for(int i = 0;i<5;i++){
-            arr.add(Integer.parseInt(br.readLine()));
-            sum += arr.get(i);
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int n = Integer.parseInt(st.nextToken());
+        int index = Integer.parseInt(st.nextToken());
+
+        st = new StringTokenizer(br.readLine());
+        for(int i = 0;i<n;i++){
+            arr.add(Integer.parseInt(st.nextToken()));
         }
 
-        Collections.sort(arr);
+        Collections.sort(arr,Collections.reverseOrder());
 
-        sb.append((int)sum/5).append("\n").append(arr.get(2));
+        sb.append(arr.get(index-1));
         System.out.println(sb);
     }
 }
