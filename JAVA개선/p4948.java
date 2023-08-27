@@ -6,10 +6,12 @@ public class p4948 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
+        
+        //long beforeTime = System.currentTimeMillis();
         while (true) {
             int n = Integer.parseInt(br.readLine());
             if (n == 0) {
-                return;
+                break;
             }
 
             else if (n == 1) {
@@ -19,7 +21,7 @@ public class p4948 {
             else {
                 int count = 0;
                 boolean is_prime;
-                for (int i = n; i <= 2 * n; i++) {
+                for (int i = n + 1; i <= 2 * n; i++) {
                     is_prime = true;
                     for(int j = 2;j < i;j++){
                         if(i % j == 0){
@@ -35,7 +37,9 @@ public class p4948 {
                 sb.append(count).append("\n");
             }
         }
-
         System.out.println(sb);
+        // long afterTime = System.currentTimeMillis(); 
+        // long secDiffTime = (afterTime - beforeTime)/1000;
+        // System.out.println("Time : " + secDiffTime + "ms");
     }
 }
